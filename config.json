@@ -1,0 +1,23 @@
+{
+  "db_path": "passagens.db",
+  "provider": "serpapi",
+  "currency": "BRL",
+  "adults": 1,
+
+  "route_a": ["SDU", "CGH"],
+  "route_b": ["CGH", "SDU"],
+
+  "anchor_thursday": "2026-10-22",
+  "anchor_route": "a",
+
+  "outbound_weekday": "thursday",
+  "return_offset_days": 4,
+
+  "start_date": "2026-12-17",
+  "horizon_weeks": 12,
+  "collect_mode": "both",
+
+  "monthly_search_budget": 237,
+
+  "sleep_between_calls_s": 1.5
+}
